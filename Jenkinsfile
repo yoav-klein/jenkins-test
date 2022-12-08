@@ -10,4 +10,9 @@ pipeline {
       }
     }
   }
+  post {
+    always {
+      sh script: 'env' 
+    }
+  }
 }
