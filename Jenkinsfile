@@ -2,7 +2,7 @@
 pipeline {
   agent any
   options {
-    skipDefaultCheckout
+    skipDefaultCheckout()
   }
   stages {
     stage('First') {
