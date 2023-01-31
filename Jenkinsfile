@@ -12,7 +12,7 @@ pipeline {
   }
   post {
     always {
-      sh script: 'env' 
+      sh script: 'ls' 
     }
   }
 }
