@@ -1,6 +1,8 @@
 @Library("mySharedLibrary")
 import com.yoav.jenkins.deployment
 
+String isThisAvailableInLibrary = "kuku"
+
 def pipe = new deployment()
 
 
